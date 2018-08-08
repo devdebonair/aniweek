@@ -1,0 +1,8 @@
+import { Platform } from 'react-native'
+import { createStore } from 'redux'
+
+import RootReducer from "./reducers/index"
+
+const store = createStore(RootReducer)
+
+export default store
